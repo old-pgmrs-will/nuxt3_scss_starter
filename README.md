@@ -5,6 +5,8 @@
 Nuxt3 RC + SCSS + TypeScript が使えるもっともシンプルな環境を構築するものです。  
 `pages/index.vue` と `pages/about.vue` の間に張られたリンクを行き来するだけのシンプルな構成となっています。  
 
+<img src="https://user-images.githubusercontent.com/102408514/168436276-deaa2e06-7c82-4536-b777-3612b12527b3.jpg" width="50%"/>
+
 - 公式情報
   - [Nuxt 3 Quick Start](https://v3.nuxtjs.org/getting-started/quick-start/)
   - [Get started with Tailwind CSS](https://tailwindcss.com/docs/installation)
