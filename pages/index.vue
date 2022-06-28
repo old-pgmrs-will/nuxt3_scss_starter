@@ -4,9 +4,15 @@
     <!-- class値は assets/scss/global.scss の共通定義を参照 -->
     <div class="container" v-bind:class="containerClass">
       <h1 class="page_title-main">index.vue</h1>
-      <h3 class="page_title-sub">Hello, Nuxt3 + SCSS :)</h3>
-      <p class="page_message mt-4">Message: {{ message }}</p>
-      <div class="nav_links mt-8">
+      <h3 class="page_title-sub">Hello, Nuxt3 + SCSS + TypeScript :)</h3>
+      <p class="page_message">Message: {{ message }}</p>
+
+      <div class="logoImage">
+        <span class="logoImageCaption">Powered by</span>
+        <img class="logoImageSource" src="../assets/images/logo-light.svg" alt="Nuxt.js Logo" width="100" />
+      </div>
+
+      <div class="nav_links">
         <NuxtLink to="/about" class="nav_link text_center">
           <p class="nav_link_text text_underline">link to: pages/about.vue</p>
         </NuxtLink>
@@ -23,6 +29,14 @@
 
 <style lang="scss" scoped>
   // このページ固有のスタイル定義
+  @use "@/assets/scss/mixins" as m;
+  .logoImage{
+    @include m.flex(center, center);
+    margin-top: 1rem;
+    .logoImageCaption{
+      margin-right: 0.5rem;
+    }
+  }
   .nav_link{
     &_text{
       font-weight: bold;

@@ -4,9 +4,9 @@
     <!-- class値は assets/scss/global.scss の共通定義を参照 -->
     <div class="container" v-bind:class="containerClass">
       <h1 class="page_title-main">about.vue</h1>
-      <h3 class="page_title-sub">Hello, Nuxt3 + SCSS :)</h3>
-      <p class="page_message mt-4">Message: {{ message }}</p>
-      <div class="nav_links mt-8">
+      <h3 class="page_title-sub">Hello, Nuxt3 + SCSS + TypeScript :)</h3>
+      <p class="page_message">Message: {{ message }}</p>
+      <div class="nav_links">
         <NuxtLink to="/" class="nav_link text_center">
           <p class="nav_link_text text_underline">link to: pages/index.vue</p>
         </NuxtLink>
