@@ -38,7 +38,7 @@
     }
   }
   .nav_link{
-    &_text{
+    .nav_link_text{
       font-weight: bold;
     }
   }

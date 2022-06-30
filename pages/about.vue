@@ -24,7 +24,7 @@
 <style lang="scss" scoped>
   // このページ固有のスタイル定義
   .nav_link{
-    &_text{
+    .nav_link_text{
       font-weight: bold;
     }
   }
